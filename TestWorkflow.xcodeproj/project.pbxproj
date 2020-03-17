@@ -3,27 +3,39 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		3FB31CFB2420906100ACC580 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB31CFA2420906100ACC580 /* AppDelegate.swift */; };
 		3FB31CFD2420906100ACC580 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB31CFC2420906100ACC580 /* SceneDelegate.swift */; };
-		3FB31CFF2420906100ACC580 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB31CFE2420906100ACC580 /* ViewController.swift */; };
 		3FB31D022420906100ACC580 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FB31D002420906100ACC580 /* Main.storyboard */; };
 		3FB31D042420906200ACC580 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FB31D032420906200ACC580 /* Assets.xcassets */; };
 		3FB31D072420906200ACC580 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FB31D052420906200ACC580 /* LaunchScreen.storyboard */; };
+		3FB31D122420918800ACC580 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB31D112420918800ACC580 /* MainViewController.swift */; };
+		3FB31D14242092B000ACC580 /* ToDoListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB31D13242092B000ACC580 /* ToDoListViewController.swift */; };
+		3FB31D172420968100ACC580 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB31D162420968100ACC580 /* Category.swift */; };
+		3FB31D192420968900ACC580 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB31D182420968900ACC580 /* Item.swift */; };
+		3FB31D1B2421167B00ACC580 /* SwipeCellViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB31D1A2421167B00ACC580 /* SwipeCellViewController.swift */; };
+		CC0A02B4FAB23418D5522EF4 /* Pods_TestWorkflow.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C82BCE5A87F77EE85AE3106 /* Pods_TestWorkflow.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0C82BCE5A87F77EE85AE3106 /* Pods_TestWorkflow.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestWorkflow.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FB31CF72420906100ACC580 /* TestWorkflow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestWorkflow.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FB31CFA2420906100ACC580 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3FB31CFC2420906100ACC580 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		3FB31CFE2420906100ACC580 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3FB31D012420906100ACC580 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3FB31D032420906200ACC580 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3FB31D062420906200ACC580 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3FB31D082420906200ACC580 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FB31D112420918800ACC580 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		3FB31D13242092B000ACC580 /* ToDoListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListViewController.swift; sourceTree = "<group>"; };
+		3FB31D162420968100ACC580 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		3FB31D182420968900ACC580 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		3FB31D1A2421167B00ACC580 /* SwipeCellViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeCellViewController.swift; sourceTree = "<group>"; };
+		6E09857418D0CCF052189A7A /* Pods-TestWorkflow.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestWorkflow.debug.xcconfig"; path = "Target Support Files/Pods-TestWorkflow/Pods-TestWorkflow.debug.xcconfig"; sourceTree = "<group>"; };
+		CDE2F72A1DD9F6E40B89773C /* Pods-TestWorkflow.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestWorkflow.release.xcconfig"; path = "Target Support Files/Pods-TestWorkflow/Pods-TestWorkflow.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +43,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC0A02B4FAB23418D5522EF4 /* Pods_TestWorkflow.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		39254CCB23ACEC36347DE06D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6E09857418D0CCF052189A7A /* Pods-TestWorkflow.debug.xcconfig */,
+				CDE2F72A1DD9F6E40B89773C /* Pods-TestWorkflow.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		3FB31CEE2420906100ACC580 = {
 			isa = PBXGroup;
 			children = (
 				3FB31CF92420906100ACC580 /* TestWorkflow */,
 				3FB31CF82420906100ACC580 /* Products */,
+				39254CCB23ACEC36347DE06D /* Pods */,
+				3FD7ED5979B1D99EF4A84CBC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,13 +82,57 @@
 			children = (
 				3FB31CFA2420906100ACC580 /* AppDelegate.swift */,
 				3FB31CFC2420906100ACC580 /* SceneDelegate.swift */,
-				3FB31CFE2420906100ACC580 /* ViewController.swift */,
-				3FB31D002420906100ACC580 /* Main.storyboard */,
-				3FB31D032420906200ACC580 /* Assets.xcassets */,
-				3FB31D052420906200ACC580 /* LaunchScreen.storyboard */,
+				3FB31D152420955400ACC580 /* New Group */,
+				3FB31D102420908900ACC580 /* Controllers */,
+				3FB31D0E2420907800ACC580 /* Views */,
+				3FB31D0F2420908000ACC580 /* Supporting Files */,
 				3FB31D082420906200ACC580 /* Info.plist */,
 			);
 			path = TestWorkflow;
+			sourceTree = "<group>";
+		};
+		3FB31D0E2420907800ACC580 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3FB31D002420906100ACC580 /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		3FB31D0F2420908000ACC580 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3FB31D032420906200ACC580 /* Assets.xcassets */,
+				3FB31D052420906200ACC580 /* LaunchScreen.storyboard */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3FB31D102420908900ACC580 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				3FB31D112420918800ACC580 /* MainViewController.swift */,
+				3FB31D13242092B000ACC580 /* ToDoListViewController.swift */,
+				3FB31D1A2421167B00ACC580 /* SwipeCellViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		3FB31D152420955400ACC580 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				3FB31D162420968100ACC580 /* Category.swift */,
+				3FB31D182420968900ACC580 /* Item.swift */,
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		3FD7ED5979B1D99EF4A84CBC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0C82BCE5A87F77EE85AE3106 /* Pods_TestWorkflow.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +142,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3FB31D0B2420906200ACC580 /* Build configuration list for PBXNativeTarget "TestWorkflow" */;
 			buildPhases = (
+				92205617A7B4CF944A300D24 /* [CP] Check Pods Manifest.lock */,
 				3FB31CF32420906100ACC580 /* Sources */,
 				3FB31CF42420906100ACC580 /* Frameworks */,
 				3FB31CF52420906100ACC580 /* Resources */,
+				27836899459506D76E6E12A5 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,13 +203,59 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		27836899459506D76E6E12A5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TestWorkflow/Pods-TestWorkflow-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TestWorkflow/Pods-TestWorkflow-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TestWorkflow/Pods-TestWorkflow-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		92205617A7B4CF944A300D24 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TestWorkflow-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3FB31CF32420906100ACC580 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3FB31CFF2420906100ACC580 /* ViewController.swift in Sources */,
+				3FB31D14242092B000ACC580 /* ToDoListViewController.swift in Sources */,
+				3FB31D172420968100ACC580 /* Category.swift in Sources */,
+				3FB31D122420918800ACC580 /* MainViewController.swift in Sources */,
 				3FB31CFB2420906100ACC580 /* AppDelegate.swift in Sources */,
+				3FB31D192420968900ACC580 /* Item.swift in Sources */,
+				3FB31D1B2421167B00ACC580 /* SwipeCellViewController.swift in Sources */,
 				3FB31CFD2420906100ACC580 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -282,6 +398,7 @@
 		};
 		3FB31D0C2420906200ACC580 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E09857418D0CCF052189A7A /* Pods-TestWorkflow.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -299,6 +416,7 @@
 		};
 		3FB31D0D2420906200ACC580 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CDE2F72A1DD9F6E40B89773C /* Pods-TestWorkflow.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
